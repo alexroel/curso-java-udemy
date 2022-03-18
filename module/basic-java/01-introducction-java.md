@@ -112,7 +112,23 @@ La herramienta jshell te permite ejecutar código Java, obteniendo resultados in
 IntelliJ IDEA es un entorno de desarrollo integrado (IDE) para el desarrollo de programas informáticos.
  
 - Pagina oficial de Intellij IDEA: https://www.jetbrains.com/es-es/idea/download/
- 
+
+### Instalar snapd OPCIONAL 
+
+En una versión de Linux Mint 20.x (20, 20.1 y 20.2), `/etc/apt/preferences.d/nosnap.pref` debe eliminarse o moverse antes de poder instalar Snap. Esto se puede lograr desde la línea de comandos, y el siguiente comando (por ejemplo) mueve `nosnap.pref` a un archivo nosnap.backup renombrado en su directorio de Documentos. 
+
+~~~
+sudo mv /etc/apt/preferences.d/nosnap.pref ~/Documents/nosnap.backup
+sudo apt update
+~~~
+
+Para instalar snap desde la aplicación Administrador de software, busque snapd y haga clic en Instalar .
+
+Como alternativa, se puede instalar snapd desde la línea de comandos:
+~~~
+sudo apt install snapd
+~~~
+
 ---
 ## Hola Mundo con Java
 Comencemos por crear un programa simple que imprime "Hola Mundo" en la pantalla.
