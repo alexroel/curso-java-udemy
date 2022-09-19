@@ -1,7 +1,7 @@
 # Introducción a Java
  
 1. [¿Qué es Java?](#¿Qué-es-Java?)
-2. [Instalar JDK](#Instalar-JDK)
+2. [Herramientas de desarrollo](#Herramientas-de-desarrollo)
 3. [Jshell](#jshell)
 4. [Instalar Intellij IDEA](#Instalar-Intellij-IDEA)
 5. [Hola Mundo con Java](#Hola-Mundo-con-Java )
@@ -67,7 +67,7 @@ Java garantiza que podrá escribir una vez, ejecutar en cualquier lugar.
 - Licencia de Oracle: https://www.oracle.com/corporate/pricing/
  
 ---
-## Instalar JDK
+## Herramientas de desarrollo
 ### ¿Qué es JDK?
 JDK (Java Development Kit ) – Herramienta de desarrollo de Java
 - JRE - Java Runtime Environment - (JVM)
@@ -108,26 +108,11 @@ La herramienta jshell te permite ejecutar código Java, obteniendo resultados in
 - Para una lista de comandos: /help
  
 ---
-## Instalar Intellij IDEA
-IntelliJ IDEA es un entorno de desarrollo integrado (IDE) para el desarrollo de programas informáticos.
+## Instalar Apache Netbeans 
+Aoache NetBeans es un entorno de desarrollo integrado (IDE) para el desarrollo de programas informáticos.
  
-- Pagina oficial de Intellij IDEA: https://www.jetbrains.com/es-es/idea/download/
+- Pagina oficial de Apache NetBeans: https://www.jetbrains.com/es-es/idea/download/
 
-### Instalar snapd OPCIONAL 
-
-En una versión de Linux Mint 20.x (20, 20.1 y 20.2), `/etc/apt/preferences.d/nosnap.pref` debe eliminarse o moverse antes de poder instalar Snap. Esto se puede lograr desde la línea de comandos, y el siguiente comando (por ejemplo) mueve `nosnap.pref` a un archivo nosnap.backup renombrado en su directorio de Documentos. 
-
-~~~
-sudo mv /etc/apt/preferences.d/nosnap.pref ~/Documents/nosnap.backup
-sudo apt update
-~~~
-
-Para instalar snap desde la aplicación Administrador de software, busque snapd y haga clic en Instalar .
-
-Como alternativa, se puede instalar snapd desde la línea de comandos:
-~~~
-sudo apt install snapd
-~~~
 
 ---
 ## Hola Mundo con Java
