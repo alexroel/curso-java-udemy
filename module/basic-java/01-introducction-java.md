@@ -3,8 +3,9 @@
 1. [¿Qué es Java?](#¿Qué-es-Java?)
 2. [Herramientas de desarrollo](#Herramientas-de-desarrollo)
 3. [Hola Mundo con Java](#Hola-Mundo-con-Java )
-4. [Mi primer método](#Mi-primer-método)
-5. [Documentación del proyecto](#Documentación-del-proyecto)
+4. [Compilación de un proyecto de Java](#Compilación-de-un-proyecto-de-Java)
+5. [Mi primer método](#Mi-primer-método)
+6. [Documentación del proyecto](#Documentación-del-proyecto)
  
 ---
 ## ¿Qué es Java?
@@ -96,27 +97,17 @@ sudo apt-get install openjdk-17-jdk
 Comprobar la versión de JDK que tiene instalado ahora `java --version`.
  
  
-## Instalar Apache Netbeans 
+### Instalar Apache Netbeans 
 Aoache NetBeans es un entorno de desarrollo integrado (IDE) para el desarrollo de programas informáticos.
  
 - Pagina oficial de Apache NetBeans: https://www.jetbrains.com/es-es/idea/download/
 
-
----
-## Jshell
-La herramienta jshell te permite ejecutar código Java, obteniendo resultados inmediatos.
-- Puede ingresar una definición de Java (variable, método, clase, etc.), como: int x = 8 o una expresión Java, como: x + x o una declaración o importación de Java.
-- Estos pequeños fragmentos de código Java se denominan "snippets".
-- También están los comandos de la herramienta jshell que le permiten comprender y controlar lo que estás haciendo, cómo: / list
- 
-- Para una lista de comandos: /help
- 
----
-## Instalar Apache Netbeans 
-Aoache NetBeans es un entorno de desarrollo integrado (IDE) para el desarrollo de programas informáticos.
- 
-- Pagina oficial de Apache NetBeans: https://www.jetbrains.com/es-es/idea/download/
-
+Comando para instalar Apache NetBeans en Linux 
+~~~bash
+sudo apt update
+sudo apt install snapd
+sudo snap install netbeans --classic
+~~~
 
 ---
 ## Hola Mundo con Java
