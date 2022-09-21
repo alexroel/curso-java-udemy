@@ -2,12 +2,9 @@
  
 1. [¿Qué es Java?](#¿Qué-es-Java?)
 2. [Herramientas de desarrollo](#Herramientas-de-desarrollo)
-3. [Jshell](#jshell)
-4. [Instalar Intellij IDEA](#Instalar-Intellij-IDEA)
-5. [Hola Mundo con Java](#Hola-Mundo-con-Java )
-6. [Compilación de un proyecto de Java](#Compilación-de-un-proyecto-de-Java)
-7. [Mi primer método](#Mi-primer-método)
-8. [Documentación del proyecto](#Documentación-del-proyecto)
+3. [Hola Mundo con Java](#Hola-Mundo-con-Java )
+4. [Mi primer método](#Mi-primer-método)
+5. [Documentación del proyecto](#Documentación-del-proyecto)
  
 ---
 ## ¿Qué es Java?
@@ -98,6 +95,13 @@ sudo apt-get install openjdk-17-jdk
  
 Comprobar la versión de JDK que tiene instalado ahora `java --version`.
  
+ 
+## Instalar Apache Netbeans 
+Aoache NetBeans es un entorno de desarrollo integrado (IDE) para el desarrollo de programas informáticos.
+ 
+- Pagina oficial de Apache NetBeans: https://www.jetbrains.com/es-es/idea/download/
+
+
 ---
 ## Jshell
 La herramienta jshell te permite ejecutar código Java, obteniendo resultados inmediatos.
