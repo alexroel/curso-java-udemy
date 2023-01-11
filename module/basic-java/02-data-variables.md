@@ -38,9 +38,16 @@
     - `double`: para números reales o de coma flotante con puntos decimales opcionales y partes fraccionarias en notaciones fijas o científicas, como `3.1416`, `-55.66`.
     - `String`: para cadena de caracteres o textos que va entre comillas dobles `"Hola"`.
     - `char`:para un carácter y va entre comillas simples como `'A'`,
-Declaración de una variable:
+
+#### Declaración de una variable:
+Con tipo de datos 
 ~~~
 tipo-dato nombre-variable;
+~~~
+
+Sin tipo de datos 
+~~~
+var nombre-variable = inicializar-con-tipo-de-dato-que-va-almacenar;
 ~~~
  
 ### Reglas para definir una variable
