@@ -1,17 +1,14 @@
 # Datos y Variables
  
-1. [Datos y Variables](#Datos-y-Variables)
+1. [Variables](#Variables)
 2. [Declarar Variables](#Declarar-Variables)
 3. [Tipos de datos](#Tipos-de-datos)
-4. [Tipo primitivo Enteros](#Tipo-primitivo-Enteros  )
-5. [Tipo primitivo Flotante](#Tipo-primitivo-Flotante)
-6. [Tipos primitivos Char o Boolean](#Tipos-primitivos-Char-o-Boolean)
-7. [Entrada de datos](#Entrada-de-datos)
-8. [Salida de datos](#Salida-de-datos )
-9. [Casting de tipos primitivos](#Casting-de-tipos-primitivos)
+4. [Entrada de datos](#Entrada-de-datos)
+5. [Salida de datos](#Salida-de-datos )
+6. [Casting de tipos primitivos](#Casting-de-tipos-primitivos)
  
 ---
-## Datos y Variables
+## Variables
 ### Datos en programación
 - La programación es manipular datos  
 - Sin los datos la programación no tendría sentido
@@ -22,10 +19,7 @@
     - Audio
     - Video
     - Etc.  
-- Para manejar en Java hay.
-    - Tipo de datos primitivos
-    - Tipo de datos referenciales
- 
+    
 ### Variables
 - Las variables almacenan datos para su procesamiento
 - Las variables representan un espacio en la memoria RAM
@@ -144,94 +138,12 @@ Ejemplo de String.
 String nombreCompleto;
 ~~~
  
----
-## Tipo primitivo Enteros
- 
 Declaración para números enteros primitivos.
  
 Tipo primitivo Byte:
 ~~~java
 byte numByte;
 numByte = 127;
-~~~
- 
-Tipo primitivo Short:
-~~~java
-short numShort;
-numShort = 32767;
-~~~
- 
-Tipo primitivo Int:
-~~~java
-int numInt;
-numInt = 2147483647;
-~~~
- 
-Tipo primitivo Long:
-~~~java
-long numLong;
-numLong = 9223372036854775807L;
-~~~
- 
----
-## Tipo primitivo Flotante
-Tipo primitivo Float:
-~~~java
-float numFloat;
-numFloat = 9223372036854775807f;
- 
-numFloat = 2120f // 2120.0
- 
-numFloat = 2.12e3f //2120.0
-~~~
- 
- 
-Tipo primitivo Double:
-~~~java
-double numDouble;
-numDouble = 2.5;
- 
-numDouble = 2120 // 2120.0
- 
-numDouble = 2.12e3 //2120.0
-~~~
- 
----
-## Tipos primitivos Char o Boolean
-### Tipo primitivo Char
-El tipo char almacena un carácter, ya sea una letra, número o símbolos.
-~~~java
-char valorChar;
- 
-valorChar = 'a';
-valorChar = '4';
-valorChar = '@';
-~~~
- 
-También puede almacenar valores como números decimales que representa un carácter en código ASCII. https://elcodigoascii.com.ar/
- 
-~~~java
-char valorChar;
- 
-valorChar = 64; //@
-~~~
- 
-También puede almacenar valores unicode.
- 
-~~~java
-char valorChar;
- 
-valorChar = '\u0040'; //@
-~~~
- 
-### Tipo primitivo Boolean
-Los valores de tipo Boolean solos son dos como `true` que es verdadero, `false` que falso.
- 
-~~~java
-boolean valorBoolean;
- 
-valorBoolean = true;
- 
 ~~~
  
 ---
@@ -353,7 +265,27 @@ De char a entero.
 int valorInt = (int) '\004'; // '\004'
 int valorInt = (int) '@'; //'@'
 ~~~
- 
- 
- 
 
+---
+
+## Practica: Precio de venta
+
+~~~java
+import java.util.Scanner;
+
+public class PrecioVenta {
+    public static void main(String[] args) {
+        var leer = new Scanner(System.in);
+        
+        System.out.print("Ingrese valor de Venta: ");
+        var vv = leer.nextDouble();
+        //IGV 18%
+        var igv = vv * 0.18;
+        var pv = vv + igv;
+        
+        System.out.println("Valor Venta: "+vv);
+        System.out.println("IGV: "+ igv);
+        System.out.println("Precio de Venta: "+ pv);
+    }
+}
+~~~

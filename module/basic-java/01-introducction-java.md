@@ -1,14 +1,15 @@
 # Introducción a Java
  
-1. [¿Qué es Java?](#¿Qué-es-Java?)
-2. [Herramientas de desarrollo](#Herramientas-de-desarrollo)
-3. [Hola Mundo con Java](#Hola-Mundo-con-Java )
-4. [Compilación de un proyecto de Java](#Compilación-de-un-proyecto-de-Java)
-5. [Mi primer método](#Mi-primer-método)
-6. [Documentación del proyecto](#Documentación-del-proyecto)
+1. [Lenguaje Java](#Lenguaje-Java)
+2. [Instalar Java y Apache Netbeans](#Instalar-Java-y-Apache-Netbeans)
+3. [Crear-programa](#Crear-programa )
+4. [Sintaxis de Java](#Sintaxis-de-Java)
+5. [Compilación de Java](#Compilación-de-Java)
+6. [Mi primer método](#Mi-primer-método)
+7. [Comentarios](#Comentarios)
  
 ---
-## ¿Qué es Java?
+## Lenguaje Java
 Java es un lenguaje de programación moderno de alto nivel diseñado a principios de la década de 1990 por James Gosling de Sun Microsystems publicado 1995 y actualmente propiedad de Oracle.
 - Java es independiente de la plataforma
 - Java es portátil
@@ -65,7 +66,7 @@ Java garantiza que podrá escribir una vez, ejecutar en cualquier lugar.
 - Licencia de Oracle: https://www.oracle.com/corporate/pricing/
  
 ---
-## Herramientas de desarrollo
+## Instalar Java y Apache Netbeans
 ### ¿Qué es JDK?
 JDK (Java Development Kit ) – Herramienta de desarrollo de Java
 - JRE - Java Runtime Environment - (JVM)
@@ -110,8 +111,11 @@ sudo snap install netbeans --classic
 ~~~
 
 ---
-## Hola Mundo con Java
-Comencemos por crear un programa simple que imprime "Hola Mundo" en la pantalla.
+## Crear programa "Hola Mundo"
+Comencemos por crear un programa simple que imprime "Hola Mundo" en la pantalla, utilizando Apache Netbeans. 
+
+---
+## Sintaxis de Java
 - En Java, cada línea de código que realmente se puede ejecutar debe estar dentro de una clase .
 - En nuestro ejemplo, llamamos a la clase HolaMundo. Aprenderá más sobre las clases en las próximas secciones.
 - En Java, cada aplicación tiene un punto de entrada o punto de partida, que es un método llamado main.
@@ -130,7 +134,7 @@ public class HolaMundo{
 - `main` : el nombre del método.
  
 ---
-## Compilación de un proyecto de Java
+## Compilación de Java
  
 Compilar de `HolaMundo.java` a Bytecode que seria `HolaMundo.class`.
  
@@ -155,14 +159,14 @@ public class HolaMundo{
  
     //Mi método saludar
     static void saludar(){
-        System.out.println("Hola desde saludar");
+        System.out.println("Hola desde el método saludar");
     }
 }
  
 ~~~
  
 ---
-## Documentación del proyecto
+## Comentarios
 Agregar comentarios a medida que escribe el código es una buena práctica, ya que brindan aclaración y comprensión cuando necesita volver a consultarlo, así como para otras personas que puedan necesitar leerlo.
  
 - Para comentarios de una línea `//`
