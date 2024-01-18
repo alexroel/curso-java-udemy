@@ -1,6 +1,13 @@
 # Variables y tipos de datos
 
-
+1. [Introducción](#introducción)
+2. [Variables](#variables)
+3. [Tipos de datos](#tipos-de-datos)
+4. [Conversiones de tipos](#conversiones-de-tipos)
+5. [Entrada de datos](#entrada-de-datos)
+6. [Salida de datos](#salida-de-datos)
+7. [Proyecto de sección: Precio de venta](#proyecto-de-sección-precio-de-venta)
+9. [Resumen](#resumen)
 
 ---
 ## Introducción

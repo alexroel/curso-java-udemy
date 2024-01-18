@@ -1,4 +1,4 @@
-# Condicionales y lógicos
+# Opeadores lógicos y condicionales
 
 
 
