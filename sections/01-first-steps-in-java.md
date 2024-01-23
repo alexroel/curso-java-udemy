@@ -6,7 +6,7 @@
 4. [Jshell](#)
 5. [Tu primer programa con Java](#tu-primer-programa-con-java)
 6. [Compilación y ejecución de programas Java](#compilación-y-ejecución-de-programas-java)
-7. [Comentarios en Java](#comentarios-en-java)
+7. [Sintaxis y semántica](#sintaxis-y-semántica)
 8. [Resumen](#resumen)
 
 ---
@@ -303,46 +303,48 @@ Si estás utilizando IntelliJ IDEA, el proceso es más sencillo:
 Esta guía te proporciona tanto la forma tradicional de compilar y ejecutar programas Java desde la línea de comandos como la forma más conveniente si estás utilizando IntelliJ IDEA. ¡Ahora estás listo para compilar y ejecutar tus programas Java!
 
 ---
-## Comentarios en Java
-En Java, los comentarios son fragmentos de texto que se utilizan para proporcionar información sobre el código. Los comentarios son ignorados por el compilador y no tienen impacto en la ejecución del programa. Hay tres tipos principales de comentarios en Java:
+## Sintaxis y semántica
 
-### 1. Comentarios de una línea:
+Java es un lenguaje de programación de alto nivel ampliamente utilizado en el desarrollo de aplicaciones empresariales, aplicaciones móviles y sistemas embebidos. Su popularidad se debe en gran medida a su sintaxis clara, orientación a objetos y portabilidad. En este artículo, exploraremos los conceptos fundamentales de sintaxis y semántica en Java, utilizando un ejemplo básico para ilustrar los principios clave.
 
-```java
-// Este es un comentario de una línea
-int numero = 10; // También se puede colocar al final de una línea de código
-```
+### Sintaxis en Java:
 
-### 2. Comentarios de varias líneas:
+La sintaxis en Java se refiere a las reglas y estructuras que se deben seguir para escribir un programa Java válido. A continuación, se presenta una descripción de la sintaxis utilizada en el ejemplo proporcionado:
 
-```java
-/*
-  Este es un comentario
-  de varias líneas.
-*/
-String mensaje = "Hola, Mundo!";
-```
+1. **Clases y Métodos:**
+   ```java
+   public class HolaMundo {
+       public static void main(String[] args) {
+   ```
+   En Java, un programa comienza con la declaración de una clase. En este caso, la clase se llama `HolaMundo`. Dentro de la clase, el método `main` es el punto de entrada del programa. La palabra clave `public` indica que el método es accesible desde fuera de la clase.
 
-### 3. Comentarios de documentación (Javadoc):
+2. **Instrucciones:**
+   ```java
+           System.out.println("Hola Mundo");
+           System.out.println(200);
+   ```
+   Las líneas de código dentro del método `main` son instrucciones. En Java, las instrucciones terminan con punto y coma (;). La función `System.out.println()` se utiliza para imprimir en la consola. En el primer caso, se imprime la cadena "Hola Mundo", y en el segundo caso, se imprime el número entero 200.
 
-```java
-/**
- * Este es un comentario de documentación.
- * Se utiliza para generar documentación automáticamente.
- *
- * @param nombre El nombre de la persona.
- * @return Saludo personalizado.
- */
-public String saludar(String nombre) {
-    return "Hola, " + nombre + "!";
-}
-```
+### Semántica en Java:
 
-- Los comentarios de documentación (Javadoc) son especiales y se utilizan para generar documentación automática utilizando herramientas como Javadoc. Estos comentarios suelen ir antes de las clases o métodos y proporcionan información sobre su uso.
+La semántica se refiere al significado de las construcciones del lenguaje. A continuación, se analiza la semántica del ejemplo proporcionado:
 
-Es una buena práctica utilizar comentarios para explicar el propósito y el funcionamiento del código. Esto facilita la comprensión del código a otros desarrolladores y a ti mismo en el futuro.
+1. **Tipos de Datos:**
+   ```java
+   System.out.println("Hola Mundo");
+   System.out.println(200);
+   ```
+   En Java, se especifica el tipo de datos al declarar variables o imprimir valores. En el primer `println`, se imprime una cadena de texto (`String`), mientras que en el segundo, se imprime un número entero (`int`).
 
-Recuerda que los comentarios son útiles para explicar el código, pero también es importante mantener un código claro y autoexplicativo en la medida de lo posible. Evita comentarios innecesarios o que repitan lo obvio.
+2. **Comentarios:**
+   ```java
+   // Este es un comentario de una sola línea
+   /* Este es un comentario
+      de varias líneas */
+   ```
+   Los comentarios se utilizan para documentar el código. En Java, los comentarios de una sola línea comienzan con `//`, y los comentarios de varias líneas están delimitados por `/*` y `*/`.
+
+En resumen, la sintaxis y semántica en Java son elementos cruciales para escribir programas eficientes y comprensibles. Comprender estos conceptos fundamentales es esencial para cualquier desarrollador que trabaje con Java y sienta las bases para explorar características más avanzadas del lenguaje.
 
 ---
 ## Resumen 

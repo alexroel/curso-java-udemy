@@ -14,29 +14,6 @@
 
 La programación es el arte de instruir a una computadora para realizar tareas específicas. En el corazón de este proceso se encuentran las variables y los tipos de datos, elementos fundamentales que permiten a los programadores almacenar, manipular y procesar información de manera eficiente.
 
-### **Variables: La Base de la Manipulación de Datos**
-
-Las variables son contenedores que almacenan información. Imagina un programa como una serie de instrucciones que la computadora debe seguir. Las variables actúan como "cajas" etiquetadas donde podemos almacenar diferentes tipos de datos, como números, texto o valores booleanos.
-
-Cuando creamos una variable, le asignamos un nombre significativo y especificamos su tipo. Este acto de "declaración" reserva un espacio en la memoria de la computadora para almacenar el valor asociado a esa variable. A lo largo del programa, podemos cambiar el contenido de estas variables según sea necesario.
-
-### **Tipos de Datos: La Naturaleza de la Información**
-
-Los tipos de datos especifican qué tipo de valores pueden almacenarse en una variable. Algunos de los tipos de datos más comunes en Java incluyen:
-
-- **Enteros (`int`):** Almacenan números enteros como 1, 42, -5.
-
-- **Decimales (`double`):** Almacenan números con decimales, como 3.14, 2.0, -0.5.
-
-- **Cadenas de Texto (`String`):** Almacenan secuencias de caracteres, como "Hola, Mundo!".
-
-- **Booleanos (`boolean`):** Almacenan valores de verdad o falsedad, `true` o `false`.
-
-La elección del tipo de dato adecuado es crucial, ya que determina la forma en que la información se almacena y se procesa en la memoria de la computadora.
-
-
-En resumen, las variables y los tipos de datos son los cimientos de la programación. Su elección cuidadosa y su correcto uso son esenciales para escribir código eficiente, legible y libre de errores, contribuyendo así al desarrollo exitoso de aplicaciones y sistemas de software.
-
 ---
 ## Variables 
 En Java, las variables y los tipos de datos son fundamentales para almacenar y manipular información en un programa. Aquí te presento una descripción general de las variables y algunos tipos de datos básicos en Java:
